@@ -1,0 +1,101 @@
+html {
+  background: linear-gradient(135deg, #FCBB68 0%, #FFCC6F 100%);
+}
+body{
+  width: 45rem;
+  min-height: 20rem;
+  box-shadow: 8px 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+header{
+  border-radius: 1rem 1rem 0 0;
+  width: 100%;
+  flex-basis: 12rem;
+  background: rgba(255, 73, 36, 0.83);
+  text-align: center;
+  position: relative;
+  .logo{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    top: 117px;
+    background: #fff;
+    border-radius: 50%;
+  }
+}
+.order{
+  flex: 1;
+  background: #fff;
+  border-radius: 0 0 1rem 1rem;
+  padding-top: 4rem !important;
+  padding: 1.5rem;
+  .header{
+    text-align: center;
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+    font-weight: 1000;
+  }
+  button{
+    padding: 0.8rem 2rem;
+    border:  none;
+    border-radius: 0.5rem;
+    font-size: 1.5rem;
+    font-weight: 1000;
+  }
+  .order-item{
+    display: flex;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    button{
+      padding: 0.5rem;
+      width: 40px;
+      height: 40px;
+      line-height: 10px;
+      font-size: 2rem;
+    }
+    .item-name{
+      flex-basis: 20rem;
+    }
+    .item-quantity{
+      flex-basis: 10rem;
+      input{
+        width: 40px;
+        height: 40px;
+        position: relative;
+        top: -2px;
+        border: none;
+        margin-left: 0.5rem;
+      }
+    }
+    .item-price{
+      margin-left: auto;
+    }
+  }
+  .order-sumary{
+    padding: 1rem 1.5rem;
+    margin: 2rem 0;
+    background: #F4F4F6;
+    font-size: 1.5rem;
+    font-weight: 1000;
+    line-height: 2.5rem;
+    .money{
+      float: right;
+
+    }
+  }
+  #btn-checkout{
+    width: 100%;
+    background: #FF6144;
+    color: #FFF;
+  }
+  #btn-add{
+    border: solid 1px grey;
+    width: 18rem;
+    margin-top: 1.5rem;
+    background: #FFF;
+  }
+}
